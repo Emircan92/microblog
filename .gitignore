@@ -8,3 +8,7 @@ migrations/
 *.db
 
 logs/
+
+*.pot
+*.po
+*.mo

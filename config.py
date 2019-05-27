@@ -14,4 +14,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['emircantester@gmail.com']
     POSTS_PER_PAGE = 10
-    LANGUAGES = ['en', 'es']
+    LANGUAGES = ['en', 'tr']

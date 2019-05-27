@@ -1,0 +1,243 @@
+# Turkish translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-05-27 17:17+0300\n"
+"PO-Revision-Date: 2019-05-27 17:18+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: tr\n"
+"Language-Team: tr <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: app/__init__.py:20
+msgid "Please log in to access this page."
+msgstr "Lutfen giris yapin"
+
+#: app/email.py:22
+msgid "[Microblog] Reset Your Password"
+msgstr "[Microblog] Sifrenizi yenileyin"
+
+#: app/forms.py:11 app/forms.py:18 app/forms.py:37
+msgid "Username"
+msgstr "Kullanici Adi"
+
+#: app/forms.py:12 app/forms.py:20 app/forms.py:64
+msgid "Password"
+msgstr "Sifre"
+
+#: app/forms.py:13
+msgid "Remember Me"
+msgstr "Beni Hatirla"
+
+#: app/forms.py:14 app/routes.py:72 app/templates/login.html:5
+msgid "Sign In"
+msgstr "Giris yap"
+
+#: app/forms.py:19 app/forms.py:59
+msgid "Email"
+msgstr "Email"
+
+#: app/forms.py:22 app/forms.py:66
+msgid "Repeat Password"
+msgstr "Sifreyi tekrar et"
+
+#: app/forms.py:23 app/routes.py:93
+msgid "Register"
+msgstr "Kayit ol"
+
+#: app/forms.py:28 app/forms.py:49
+msgid "Please use a different username."
+msgstr "Lutfen baska bir isim kullanin."
+
+#: app/forms.py:33
+msgid "Please use a different email address."
+msgstr "Lutfen baska bir email adresi kullanin."
+
+#: app/forms.py:38
+msgid "About me"
+msgstr "Hakkimda"
+
+#: app/forms.py:39 app/forms.py:55
+msgid "Submit"
+msgstr "Gonder"
+
+#: app/forms.py:53
+msgid "Say something"
+msgstr "Birseyler soyle"
+
+#: app/forms.py:60 app/forms.py:67
+msgid "Request Password Reset"
+msgstr "Parola sifirla"
+
+#: app/routes.py:30
+msgid "Your post is now live!"
+msgstr "Gonderiniz artik yayinda"
+
+#: app/routes.py:39 app/templates/base.html:21
+msgid "Home"
+msgstr "Anasayfa"
+
+#: app/routes.py:53 app/templates/base.html:22
+msgid "Explore"
+msgstr "Kesfet"
+
+#: app/routes.py:65
+msgid "Invalid Username or Password"
+msgstr "Yanlis kullanici adi ya da parola"
+
+#: app/routes.py:91
+msgid "Congratulations, you are now a registered user!"
+msgstr "Tebrikler, Artik kayitli bir kullanicisiniz"
+
+#: app/routes.py:119
+msgid "Your changes have been saved."
+msgstr "Degisiklikleriniz kaydedildi."
+
+#: app/routes.py:124 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Profili Duzenle"
+
+#: app/routes.py:132 app/routes.py:148
+#, python-format
+msgid "User %(username)s not found."
+msgstr "%(username)s adli kullanici bulunamadi."
+
+#: app/routes.py:135
+msgid "You cannot follow yourself!"
+msgstr "Kendini takip edemezsin"
+
+#: app/routes.py:139
+#, python-format
+msgid "You are following %(username)s!."
+msgstr "%(username)s adli kullaniciyi takip ediyorsun."
+
+#: app/routes.py:151
+msgid "You cannot unfollow yourself!"
+msgstr "Kendinizi takipten cikamazsiniz."
+
+#: app/routes.py:155
+#, python-format
+msgid "You are not following %(username)s anymore."
+msgstr "%(username)s adli kullaniciyi artik takip etmiyorsun."
+
+#: app/routes.py:168
+msgid "Check your email for the instructions to reset your password."
+msgstr "Parola yenilemek icin email adresinize gonderilen talimatlari izleyiniz."
+
+#: app/routes.py:171 app/templates/reset_password.html:5
+msgid "Reset Password"
+msgstr "Parola Yenile"
+
+#: app/routes.py:185
+msgid "Your password has been reset"
+msgstr "Parolaniz sifirlanmistir."
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr "Bulunamadi"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "Geri"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Beklenmeyen bir hata olustu."
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "Yetkililer bilgilendirildi. Ozur Dileriz"
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s %(when)s dedi ki"
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "Microblog'a hosgeldiniz."
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr "Giris yap"
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr "Profil"
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr "Cikis Yap"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Merhaba, %(username)s!"
+
+#: app/templates/index.html:17 app/templates/user.html:31
+msgid "Newer posts"
+msgstr "Yeni Girdi"
+
+#: app/templates/index.html:22 app/templates/user.html:36
+msgid "Older posts"
+msgstr "Eski Girdi"
+
+#: app/templates/login.html:12
+msgid "New User?"
+msgstr "Yeni misiniz?"
+
+#: app/templates/login.html:12
+msgid "Click to Register!"
+msgstr "Kayit olmak icin tiklayin."
+
+#: app/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "Sifrenizi mi unuttunuz?"
+
+#: app/templates/login.html:15
+msgid "Click to Reset It"
+msgstr "Yenilemek icin tiklayin"
+
+#: app/templates/register.html:5
+msgid "Reset Your Password"
+msgstr "Sifreni yenile"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "Kullanici"
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr "Son Gorulme"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d takipciler"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d takip edilen"
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Profilini Duzenle"
+
+#: app/templates/user.html:17
+msgid "Follow"
+msgstr "Takip et"
+
+#: app/templates/user.html:19
+msgid "Unfollow"
+msgstr "Takipten Cik"
+

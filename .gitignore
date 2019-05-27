@@ -10,5 +10,3 @@ migrations/
 logs/
 
 *.pot
-*.po
-*.mo

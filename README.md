@@ -14,8 +14,6 @@ This is a facebook-like web application developed using flask which consists fea
 
 [![kWcUr.png](https://a.imge.to/2019/07/29/kWcUr.png)](https://imge.to/i/kWcUr)
 
-[![kWql6.png](https://a.imge.to/2019/07/29/kWql6.png)](https://imge.to/i/kWql6)
-
 
 ## Install guide
 
